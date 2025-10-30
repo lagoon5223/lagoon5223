@@ -2,7 +2,7 @@
 
   <a href="mailto:lagoon5223@gmail.com">
     <img 
-        src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:moonseohyun03@gmail.com"
+        src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:lagoon5223@gmail.com"
         style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 </a>
 </div>
