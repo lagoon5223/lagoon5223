@@ -11,8 +11,8 @@
 
   
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KJIHEON&show_icons=true&theme=highcontrast&count_private=true" style="height: 180px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KJIHEON&langs_count=10&layout=compact&theme=highcontrast&count_private=true" style="height: 180px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=choedo&show_icons=true&theme=highcontrast&count_private=true" style="height: 180px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=choedo&langs_count=10&layout=compact&theme=highcontrast&count_private=true" style="height: 180px;">
 </div>
 
 
