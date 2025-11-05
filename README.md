@@ -28,7 +28,7 @@
 
 <div align=left><h1>❖ TECH STACKS ❖</h1></div>
 
-<div align=left>
+<!-- <div align=left>
   <h3>※ Programming Languages </h3>
   <img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
   <br>
@@ -58,4 +58,4 @@
   
   
   <br>
-</div>
+</div> -->
