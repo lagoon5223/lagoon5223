@@ -6,27 +6,27 @@
     .title { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; }
     .label { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #82aaff; }
     .value { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #b2ccd6; text-anchor: end; }
-    .rank { font: 800 28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; text-anchor: middle; }
+    .rank { font: 800 28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #86efac; text-anchor: middle; }
     .rank-label { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #b2ccd6; text-anchor: middle; }
     .accent { fill: #89ddff; opacity: 0.9; }
   </style>
   <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
   <text x="40" y="42" class="title">lagoon's GitHub Stats</text>
   <circle cx="430" cy="112" r="38" stroke="#334155" stroke-width="8"/>
-  <circle cx="430" cy="112" r="38" stroke="#c792ea" stroke-width="8" stroke-linecap="round" stroke-dasharray="238.76" stroke-dashoffset="90.73" transform="rotate(-90 430 112)"/>
+  <circle cx="430" cy="112" r="38" stroke="#86efac" stroke-width="8" stroke-linecap="round" stroke-dasharray="238.76" stroke-dashoffset="90.73" transform="rotate(-90 430 112)"/>
   <text x="430" y="111" class="rank">A</text>
   <text x="430" y="132" class="rank-label">rank</text>
   
         <text x="40" y="80" class="label">Total Contributions:</text>
-        <text x="330" y="80" class="value">1,135</text>
-        <text x="40" y="104" class="label">Total Commits (2026):</text>
-        <text x="330" y="104" class="value">1,123</text>
+        <text x="330" y="80" class="value">1,895</text>
+        <text x="40" y="104" class="label">Total Commits:</text>
+        <text x="330" y="104" class="value">1,861</text>
         <text x="40" y="128" class="label">Pull Requests:</text>
-        <text x="330" y="128" class="value">1</text>
+        <text x="330" y="128" class="value">10</text>
         <text x="40" y="152" class="label">Issues Opened:</text>
         <text x="330" y="152" class="value">0</text>
         <text x="40" y="176" class="label">Code Reviews:</text>
-        <text x="330" y="176" class="value">0</text>
+        <text x="330" y="176" class="value">1</text>
         <text x="40" y="200" class="label">Private Contributions:</text>
         <text x="330" y="200" class="value">0</text>
         <text x="40" y="224" class="label">Public Repos:</text>
