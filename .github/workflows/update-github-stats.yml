@@ -1,1 +1,45 @@
 
+# Update private-aware GitHub profile SVG cards.
+name: Update GitHub Stats
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the profile README repository.
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Use Node.js to run the SVG generator without extra dependencies.
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Generate SVG cards with a PAT that can read private repositories.
+      - name: Generate GitHub stats SVG
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GITHUB_USERNAME: lagoon5223
+        run: node scripts/generate-github-stats.mjs
+
+      # Commit generated SVG updates back to the README repository.
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/github-langs.svg
+          git diff --cached --quiet || git commit -m "Update GitHub profile stats"
+          git push
