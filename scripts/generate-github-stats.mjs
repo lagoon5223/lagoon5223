@@ -131,6 +131,15 @@ function formatNumber(value) {
   return new Intl.NumberFormat("en-US").format(value || 0);
 }
 
+// Calculate a display rank from yearly contribution volume.
+function calculateRank(totalContributions) {
+  if (totalContributions >= 2000) return { grade: "S", percent: 100 };
+  if (totalContributions >= 1200) return { grade: "A", percent: 82 };
+  if (totalContributions >= 700) return { grade: "B", percent: 64 };
+  if (totalContributions >= 300) return { grade: "C", percent: 42 };
+  return { grade: "D", percent: 18 };
+}
+
 // Render the main stats card as an SVG file.
 function renderStatsSvg({ viewer, repos }) {
   const displayName = viewer.name || viewer.login;
@@ -142,6 +151,10 @@ function renderStatsSvg({ viewer, repos }) {
   const reviews = collection.totalPullRequestReviewContributions;
   const privateCount = collection.restrictedContributionsCount;
   const privateRepos = repos.filter((repo) => repo.private).length;
+  const rank = calculateRank(totalContributions);
+  const ringRadius = 38;
+  const ringLength = 2 * Math.PI * ringRadius;
+  const ringOffset = ringLength * (1 - rank.percent / 100);
 
   const rows = [
     ["Total Contributions", formatNumber(totalContributions)],
@@ -171,10 +184,16 @@ function renderStatsSvg({ viewer, repos }) {
     .title { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; }
     .label { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #82aaff; }
     .value { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #b2ccd6; text-anchor: end; }
+    .rank { font: 800 28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; text-anchor: middle; }
+    .rank-label { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #b2ccd6; text-anchor: middle; }
     .accent { fill: #89ddff; opacity: 0.9; }
   </style>
   <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
   <text x="40" y="42" class="title">${escapeXml(displayName)}'s GitHub Stats</text>
+  <circle cx="420" cy="72" r="${ringRadius}" stroke="#334155" stroke-width="8"/>
+  <circle cx="420" cy="72" r="${ringRadius}" stroke="#c792ea" stroke-width="8" stroke-linecap="round" stroke-dasharray="${ringLength.toFixed(2)}" stroke-dashoffset="${ringOffset.toFixed(2)}" transform="rotate(-90 420 72)"/>
+  <text x="420" y="75" class="rank">${escapeXml(rank.grade)}</text>
+  <text x="420" y="96" class="rank-label">rank</text>
   ${rowMarkup}
 </svg>
 `;
