@@ -172,7 +172,7 @@ function renderStatsSvg({ viewer, repos }) {
     .map(
       ([label, value], index) => `
         <text x="40" y="${80 + index * 24}" class="label">${escapeXml(label)}:</text>
-        <text x="470" y="${80 + index * 24}" class="value">${escapeXml(value)}</text>`
+        <text x="330" y="${80 + index * 24}" class="value">${escapeXml(value)}</text>`
     )
     .join("");
 
@@ -190,10 +190,10 @@ function renderStatsSvg({ viewer, repos }) {
   </style>
   <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
   <text x="40" y="42" class="title">${escapeXml(displayName)}'s GitHub Stats</text>
-  <circle cx="420" cy="72" r="${ringRadius}" stroke="#334155" stroke-width="8"/>
-  <circle cx="420" cy="72" r="${ringRadius}" stroke="#c792ea" stroke-width="8" stroke-linecap="round" stroke-dasharray="${ringLength.toFixed(2)}" stroke-dashoffset="${ringOffset.toFixed(2)}" transform="rotate(-90 420 72)"/>
-  <text x="420" y="75" class="rank">${escapeXml(rank.grade)}</text>
-  <text x="420" y="96" class="rank-label">rank</text>
+  <circle cx="430" cy="112" r="${ringRadius}" stroke="#334155" stroke-width="8"/>
+  <circle cx="430" cy="112" r="${ringRadius}" stroke="#c792ea" stroke-width="8" stroke-linecap="round" stroke-dasharray="${ringLength.toFixed(2)}" stroke-dashoffset="${ringOffset.toFixed(2)}" transform="rotate(-90 430 112)"/>
+  <text x="430" y="111" class="rank">${escapeXml(rank.grade)}</text>
+  <text x="430" y="132" class="rank-label">rank</text>
   ${rowMarkup}
 </svg>
 `;
