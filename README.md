@@ -16,9 +16,12 @@
   <img
     alt="GitHub Stats"
     src="https://ghstats.dev/api/card?username=lagoon5223&theme=tokyonight&show_icons=true&hide=stars,prs,issues"
-    height="180"
+    height="250"
   />
-  <img
+ 
+</div>
+<div align="center">
+ <img
     alt="Top Languages"
     src="https://ghstats.dev/api/langs?username=lagoon5223&theme=tokyonight&layout=compact&max_langs=10"
     height="180"
