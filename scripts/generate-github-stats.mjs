@@ -133,10 +133,13 @@ function formatNumber(value) {
 
 // Calculate a display rank from yearly contribution volume.
 function calculateRank(totalContributions) {
-  if (totalContributions >= 2000) return { grade: "S", percent: 100 };
-  if (totalContributions >= 1200) return { grade: "A", percent: 82 };
-  if (totalContributions >= 700) return { grade: "B", percent: 64 };
-  if (totalContributions >= 300) return { grade: "C", percent: 42 };
+  if (totalContributions >= 5000) return { grade: "X", percent: 100 };
+  if (totalContributions >= 4000) return { grade: "U", percent: 92 };
+  if (totalContributions >= 3000) return { grade: "S+", percent: 84 };
+  if (totalContributions >= 2000) return { grade: "S", percent: 74 };
+  if (totalContributions >= 1000) return { grade: "A", percent: 62 };
+  if (totalContributions >= 700) return { grade: "B", percent: 48 };
+  if (totalContributions >= 300) return { grade: "C", percent: 32 };
   return { grade: "D", percent: 18 };
 }
 
@@ -155,6 +158,7 @@ function renderStatsSvg({ viewer, repos }) {
   const ringRadius = 38;
   const ringLength = 2 * Math.PI * ringRadius;
   const ringOffset = ringLength * (1 - rank.percent / 100);
+  const rankFontSize = rank.grade.length > 1 ? 22 : 28;
 
   const rows = [
     ["Total Contributions", formatNumber(totalContributions)],
@@ -184,7 +188,7 @@ function renderStatsSvg({ viewer, repos }) {
     .title { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; }
     .label { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #82aaff; }
     .value { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #b2ccd6; text-anchor: end; }
-    .rank { font: 800 28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; text-anchor: middle; }
+    .rank { font: 800 ${rankFontSize}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c792ea; text-anchor: middle; }
     .rank-label { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #b2ccd6; text-anchor: middle; }
     .accent { fill: #89ddff; opacity: 0.9; }
   </style>
