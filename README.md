@@ -15,13 +15,13 @@
 <div align="center">
   <img
     alt="GitHub Stats"
-    src="https://github-readme-stats.vercel.app/api?username=lagoon5223&show_icons=true&theme=highcontrast&count_private=true"
-    style="height: 180px;"
+    src="https://ghstats.dev/api/card?username=lagoon5223&theme=tokyonight&show_icons=true&hide=stars,prs,issues"
+    height="180"
   />
   <img
     alt="Top Languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lagoon5223&langs_count=10&layout=compact&theme=highcontrast&count_private=true"
-    style="height: 180px;"
+    src="https://ghstats.dev/api/langs?username=lagoon5223&theme=tokyonight&layout=compact&max_langs=10"
+    height="180"
   />
 </div>
 
