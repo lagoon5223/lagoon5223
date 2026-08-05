@@ -25,14 +25,7 @@
   />
 </div>
 
-<!-- BOJ badge -->
-<div align="center">
-  <img
-    alt="Solved.ac Profile"
-    height="195"
-    src="https://mazassumnida.wtf/api/v2/generate_badge?boj=lagoon5223"
-  />
-</div>
+
 
 ---
 
