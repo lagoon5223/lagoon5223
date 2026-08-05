@@ -8,7 +8,7 @@
   </style>
   <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
   <text x="40" y="42" class="title">Most Used Languages</text>
-  <rect x="40" y="70" width="253.81950250099584" height="12" rx="6" fill="#f1e05a"/><rect x="293.81950250099584" y="70" width="139.24892234265016" height="12" rx="6" fill="#e34c26"/><rect x="433.06842484364597" y="70" width="17.215011464597723" height="12" rx="6" fill="#3178c6"/><rect x="450.2834363082437" y="70" width="14.378645508407248" height="12" rx="6" fill="#3572A5"/><rect x="464.662081816651" y="70" width="9.37404260780097" height="12" rx="6" fill="#563d7c"/><rect x="474.03612442445194" y="70" width="4.689306063589017" height="12" rx="6" fill="#00ADD8"/><rect x="478.72543048804096" y="70" width="2" height="12" rx="6" fill="#dea584"/><rect x="480.72543048804096" y="70" width="2" height="12" rx="6" fill="#89e051"/>
+  <rect x="40" y="70" width="253.8176196689645" height="12" rx="6" fill="#f1e05a"/><rect x="293.81761966896454" y="70" width="139.25115331291408" height="12" rx="6" fill="#e34c26"/><rect x="433.0687729818786" y="70" width="17.214883763713093" height="12" rx="6" fill="#3178c6"/><rect x="450.2836567455917" y="70" width="14.37853884767368" height="12" rx="6" fill="#3572A5"/><rect x="464.6621955932654" y="70" width="9.373973071191248" height="12" rx="6" fill="#563d7c"/><rect x="474.0361686644566" y="70" width="4.689271278335817" height="12" rx="6" fill="#00ADD8"/><rect x="478.72543994279243" y="70" width="2" height="12" rx="6" fill="#dea584"/><rect x="480.72543994279243" y="70" width="2" height="12" rx="6" fill="#89e051"/>
   
         <circle cx="42" cy="118" r="6" fill="#f1e05a"/>
         <text x="60" y="122" class="lang">TypeScript 57.7%</text>
