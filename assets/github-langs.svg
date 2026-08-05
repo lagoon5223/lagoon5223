@@ -1,0 +1,9 @@
+<!-- Placeholder language card before GitHub Actions generates private-aware data. -->
+<svg width="520" height="300" viewBox="0 0 520 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Most Used Languages</title>
+  <desc id="desc">Run the Update GitHub Stats workflow to generate private-aware language data.</desc>
+  <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
+  <text x="40" y="54" fill="#c792ea" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700">Most Used Languages</text>
+  <text x="40" y="104" fill="#82aaff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">Waiting for GitHub Actions...</text>
+  <text x="40" y="136" fill="#b2ccd6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Private repositories will be included after generation.</text>
+</svg>
