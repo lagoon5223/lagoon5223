@@ -15,16 +15,18 @@
 <div align="center">
   <img
     alt="GitHub Stats"
-    src="./assets/github-stats.svg?v=202608051748"   
-    height="250"
+    src="./assets/github-stats.svg?v=2026080502"
+    width="520"
+    height="300"
   />
  
 </div>
 <div align="center">
  <img
     alt="Top Languages"
-    src="./assets/github-langs.svg?v=202608051748"
-    height="180"
+    src="./assets/github-langs.svg?v=2026080502"
+    width="520"
+    height="300"
   />
 </div>
 
