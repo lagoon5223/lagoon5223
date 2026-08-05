@@ -15,7 +15,7 @@
 <div align="center">
   <img
     alt="GitHub Stats"
-    src="https://ghstats.dev/api/card?username=lagoon5223&theme=tokyonight&show_icons=true&hide=stars,prs,issues"
+    src="./assets/github-stats.svg"
     height="250"
   />
  
@@ -23,7 +23,7 @@
 <div align="center">
  <img
     alt="Top Languages"
-    src="https://ghstats.dev/api/langs?username=lagoon5223&theme=tokyonight&layout=compact&max_langs=10"
+    src="./assets/github-langs.svg"
     height="180"
   />
 </div>
