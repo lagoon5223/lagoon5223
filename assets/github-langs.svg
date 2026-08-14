@@ -8,16 +8,16 @@
   </style>
   <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
   <text x="40" y="42" class="title">Most Used Languages</text>
-  <rect x="40" y="70" width="254.49914203663468" height="12" rx="6" fill="#f1e05a"/><rect x="294.4991420366347" y="70" width="141.30361341293886" height="12" rx="6" fill="#e34c26"/><rect x="435.8027554495735" y="70" width="14.679288310648936" height="12" rx="6" fill="#3178c6"/><rect x="450.48204376022244" y="70" width="14.138968495228205" height="12" rx="6" fill="#3572A5"/><rect x="464.62101225545064" y="70" width="9.399143003563506" height="12" rx="6" fill="#563d7c"/><rect x="474.02015525901413" y="70" width="4.701862379254766" height="12" rx="6" fill="#00ADD8"/><rect x="478.7220176382689" y="70" width="2" height="12" rx="6" fill="#dea584"/><rect x="480.7220176382689" y="70" width="2" height="12" rx="6" fill="#89e051"/>
+  <rect x="40" y="70" width="254.00076163554183" height="12" rx="6" fill="#f1e05a"/><rect x="294.00076163554183" y="70" width="141.0269014721242" height="12" rx="6" fill="#e34c26"/><rect x="435.02766310766606" y="70" width="15.098674858084138" height="12" rx="6" fill="#3178c6"/><rect x="450.12633796575017" y="70" width="14.524790643017859" height="12" rx="6" fill="#3572A5"/><rect x="464.65112860876803" y="70" width="9.380736856404976" height="12" rx="6" fill="#563d7c"/><rect x="474.031865465173" y="70" width="4.692654819497573" height="12" rx="6" fill="#00ADD8"/><rect x="478.7245202846706" y="70" width="2" height="12" rx="6" fill="#dea584"/><rect x="480.7245202846706" y="70" width="2" height="12" rx="6" fill="#89e051"/>
   
         <circle cx="42" cy="118" r="6" fill="#f1e05a"/>
-        <text x="60" y="122" class="lang">TypeScript 57.8%</text>
+        <text x="60" y="122" class="lang">TypeScript 57.7%</text>
         <circle cx="272" cy="118" r="6" fill="#e34c26"/>
         <text x="290" y="122" class="lang">JavaScript 32.1%</text>
         <circle cx="42" cy="152" r="6" fill="#3178c6"/>
-        <text x="60" y="156" class="lang">CSS 3.3%</text>
+        <text x="60" y="156" class="lang">CSS 3.4%</text>
         <circle cx="272" cy="152" r="6" fill="#3572A5"/>
-        <text x="290" y="156" class="lang">HTML 3.2%</text>
+        <text x="290" y="156" class="lang">HTML 3.3%</text>
         <circle cx="42" cy="186" r="6" fill="#563d7c"/>
         <text x="60" y="190" class="lang">EJS 2.1%</text>
         <circle cx="272" cy="186" r="6" fill="#00ADD8"/>
