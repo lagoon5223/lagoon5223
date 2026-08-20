@@ -21,6 +21,9 @@ jobs:
       # Check out the profile README repository.
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       # Use Node.js to run the SVG generator without extra dependencies.
       - name: Setup Node
