@@ -8,16 +8,16 @@
   </style>
   <rect x="0.5" y="0.5" width="519" height="299" rx="8" fill="#1b1e2b" stroke="#82aaff"/>
   <text x="40" y="42" class="title">Most Used Languages</text>
-  <rect x="40" y="70" width="253.99152284452362" height="12" rx="6" fill="#f1e05a"/><rect x="293.9915228445236" y="70" width="141.02732435140854" height="12" rx="6" fill="#e34c26"/><rect x="435.01884719593215" y="70" width="15.098125672716476" height="12" rx="6" fill="#3178c6"/><rect x="450.11697286864865" y="70" width="14.534714025906544" height="12" rx="6" fill="#3572A5"/><rect x="464.6516868945552" y="70" width="9.380395650076085" height="12" rx="6" fill="#563d7c"/><rect x="474.0320825446313" y="70" width="4.6924841331700256" height="12" rx="6" fill="#00ADD8"/><rect x="478.7245666778013" y="70" width="2" height="12" rx="6" fill="#dea584"/><rect x="480.7245666778013" y="70" width="2" height="12" rx="6" fill="#89e051"/>
+  <rect x="40" y="70" width="252.98626324673586" height="12" rx="6" fill="#f1e05a"/><rect x="292.98626324673586" y="70" width="140.4659065451241" height="12" rx="6" fill="#e34c26"/><rect x="433.45216979186" y="70" width="15.780430801262547" height="12" rx="6" fill="#3178c6"/><rect x="449.2326005931225" y="70" width="15.47983257708116" height="12" rx="6" fill="#3572A5"/><rect x="464.71243317020367" y="70" width="9.343269478884704" height="12" rx="6" fill="#563d7c"/><rect x="474.05570264908835" y="70" width="4.673911998716454" height="12" rx="6" fill="#00ADD8"/><rect x="478.7296146478048" y="70" width="2" height="12" rx="6" fill="#dea584"/><rect x="480.7296146478048" y="70" width="2" height="12" rx="6" fill="#89e051"/>
   
         <circle cx="42" cy="118" r="6" fill="#f1e05a"/>
-        <text x="60" y="122" class="lang">TypeScript 57.7%</text>
+        <text x="60" y="122" class="lang">TypeScript 57.5%</text>
         <circle cx="272" cy="118" r="6" fill="#e34c26"/>
-        <text x="290" y="122" class="lang">JavaScript 32.1%</text>
+        <text x="290" y="122" class="lang">JavaScript 31.9%</text>
         <circle cx="42" cy="152" r="6" fill="#3178c6"/>
-        <text x="60" y="156" class="lang">CSS 3.4%</text>
+        <text x="60" y="156" class="lang">HTML 3.6%</text>
         <circle cx="272" cy="152" r="6" fill="#3572A5"/>
-        <text x="290" y="156" class="lang">HTML 3.3%</text>
+        <text x="290" y="156" class="lang">CSS 3.5%</text>
         <circle cx="42" cy="186" r="6" fill="#563d7c"/>
         <text x="60" y="190" class="lang">EJS 2.1%</text>
         <circle cx="272" cy="186" r="6" fill="#00ADD8"/>
